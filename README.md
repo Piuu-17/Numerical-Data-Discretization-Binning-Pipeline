@@ -21,7 +21,7 @@ python
 from sklearn.preprocessing import KBinsDiscretizer
 from sklearn.compose import ColumnTransformer
 
-## Project 2: Automated Feature Binarization Pipeline
+## Automated Feature Binarization Pipeline
 
 ### Description
 This project focuses on transforming numerical variables into binary outcome based on a given threshold via Scikit-Learn's `Binarizer`. Engineered around a specific domain-knowledge scenario from the Titanic dataset, it combines `SibSp` (Siblings/Spouses) and `Parch` (Parents/Children) columns into a single `Family` metric. It then applies a structural binarization boundary threshold to generate a new definitive, binary feature: `Travelled_Alone`. 
